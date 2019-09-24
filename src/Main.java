@@ -10,6 +10,7 @@ public String name [] = {"Pers", "Masha", "Fishka", "Barsik"};
         ourcat.jump();
         ourcat.scratch();
 
+
         play_sound cat1 = new Cat(name[1]);
 
         cat1.print();
@@ -17,6 +18,7 @@ public String name [] = {"Pers", "Masha", "Fishka", "Barsik"};
         Animals cat2 = new Cat(name[0]);
 
         cat2.getName();
+        cat2.print();
 
         ability_to_scratch cat3 = new Cat(name[4]);
 
